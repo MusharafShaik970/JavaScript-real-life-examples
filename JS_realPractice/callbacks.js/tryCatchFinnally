@@ -1,0 +1,18 @@
+SYNTAX : 
+
+try{
+    // noraml code  //executed normally
+}
+
+// catch code is executed if we find any error in try code
+catch(error){  
+    console.error(error) }//This line prints whattever error we get through the JS engine like reference error etc.
+//  if you write e in catch then you should be writing the same thing in console.error
+
+finally{
+    //finally code is executed compulsory , whatever may be the consequence , even if the code is correct or error is found in it.
+}
+
+//you can have try...catch...finally  
+//or  try...finally
+//or try...catch
